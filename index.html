@@ -8,7 +8,21 @@
         <link rel="stylesheet" href="stylesheet.css" type="text/css">
     </head>
     <body>
-
+        <form>
+            <fieldset>
+                <legend>Enter your city or zip code</legend>
+                <label for="city">name or zip:</label>
+                <input type="text" name="city" id="city">
+                <input type="submit" id="citySubmit">
+            </fieldset>
+        </form>
+        <div>
+            <p id="cityName">city name: </p>
+            <p id="currWeather">current weather: </p>
+            <p id="currTemp">current temperature: </p>
+            <p id="minTemp">today's minimum temp: </p>
+            <p id="maxTemp">today's maximum temp: </p>
+        </div>
         <script src='info.js'></script>
         <script src='ajaxInteractions.js'></script>
     </body>

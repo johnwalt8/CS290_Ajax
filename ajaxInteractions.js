@@ -3,6 +3,15 @@
 // Walter Johnson
 // CS290 Week 6 Activity: Ajax Interactions
 
+const AIG = {
+    doc: document,
+    city: document.getElementById("city"),
+    citySubmit: doc.getElementById("citySubmit"),
+    cityName: doc.getElementById("cityName"),
+    currWeather: doc.getElementById("currWeather"),
+    currTemp: doc.getElementById("")
+}
+
 var req = new XMLHttpRequest();
 req.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Corvallis,us&appid=" + appid, false);
 req.send(null);
