@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>title</title>
+        <title>HW#9</title>
         <link rel="stylesheet" href="stylesheet.css" type="text/css">
     </head>
     <body>
@@ -17,15 +17,22 @@
             </fieldset>
         </form>
         <div>
-            <p id="cityName">city name: </p>
-            <p id="currWeather">current weather: </p>
-            <p id="currTemp">current temperature: </p>
-            <p id="minTemp">today's minimum temp: </p>
-            <p id="maxTemp">today's maximum temp: </p>
+            <img id="image">
+            <p>city name: <span id="cityName"></span></p>
+            <p>current weather: <span id="currWeather"></span></p>
+            <p>current temperature: <span id="currTemp"></span></p>
+            <p>today's minimum temp: <span id="minTemp"></span></p>
+            <p>today's maximum temp: <span id="maxTemp"></span></p>
         </div>
+        <form>
+            <fieldset>
+                <legend>Please tell me about yourself</legend>
+                <textarea name="aboutYou" rows="7" cols="77" id="aboutYou"></textarea>
+                <br /><input type="submit" id="youSubmit">
+            </fieldset>
+        </form>
+        <div><p id="aboutMe"></p></div>
         <script src='info.js'></script>
         <script src='ajaxInteractions.js'></script>
     </body>
 </html>
-<!-- http://openweahtermap.og/img/w/<icon_id> -->
-<!-- sys.sunrise & sys.sunset: unix, UTC -->

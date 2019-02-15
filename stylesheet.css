@@ -1,0 +1,17 @@
+html {
+    background: #404040;
+}
+
+body {
+    width: 95%;
+    max-width: 700px;
+    min-height: 700px;
+    padding: 14px;
+    margin:7px auto;
+    background-color: rgb(242, 242, 242);
+    border: solid 3px;
+}
+
+img {
+    float: right;
+}
